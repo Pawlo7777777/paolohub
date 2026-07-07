@@ -21,30 +21,44 @@ GameHub is an offline Flutter application that brings together multiple classic 
 * Shared "Coming Soon" placeholder widget
 * Centralized game catalog for easy expansion
 
-### Available Games
+## Available Games
 
-#### ✅ Tic Tac Toe
+### ✅ Tic Tac Toe
 
-* Two-player local mode
-* Easy AI (random moves)
-* Hard AI (Minimax with Alpha-Beta pruning)
-* Win and draw detection
-* Winning line highlight
-* Best win streak saved locally
+* Play against another player locally or challenge the AI.
+* Easy mode uses random moves, while Hard mode uses the Minimax algorithm with Alpha-Beta pruning.
+* Tracks win streaks and saves the best streak locally.
 
-#### ✅ Memory Match
+### ✅ Memory Match
 
-* 4×4 and 6×6 difficulty levels
-* Move counter
-* Game timer
-* Fastest completion time tracking
-* Animated card flipping
-* Persistent best scores
+* Match pairs of cards in the shortest time possible.
+* Includes 4×4 and 6×6 difficulty levels.
+* Tracks moves, elapsed time, and best completion times.
 
-### Coming Soon
+### ✅ 2048
 
-* Sound Effects
-* Reward System
+* Slide and merge numbered tiles to reach the 2048 tile.
+* Supports swipe gestures with smooth tile movement.
+* Best score is saved locally.
+
+### ✅ Flappy Bird
+
+* Tap to keep the bird flying while avoiding obstacles.
+* Features score tracking and persistent high scores.
+* Simple physics-based gameplay.
+
+### ✅ Sudoku
+
+* Solve Sudoku puzzles with a clean and intuitive interface.
+* Includes puzzle validation and completion detection.
+* Tracks completion time and best records.
+
+## Coming Soon
+
+* 🔊 Sound Effects
+* 🪙 Coin & Reward System
+* ✨ Additional mini-games and gameplay improvements
+
 
 
 ---
@@ -99,7 +113,7 @@ lib/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Pawlo7777777/paolohub
 cd game_hub
 ```
 
@@ -169,8 +183,6 @@ All data is stored locally on the device and works completely offline.
 * ✅ Sudoku
 * ✅ Splash screen
 * ✅ Custom app icon
-
-*Ongoing: Sound Effects, Coin and reward system
 ---
 
 ## License
