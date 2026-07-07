@@ -43,9 +43,9 @@ GameHub is an offline Flutter application that brings together multiple classic 
 
 ### Coming Soon
 
-* 2048
-* Flappy Bird
-* Sudoku
+* Sound Effects
+* Reward System
+
 
 ---
 
@@ -167,8 +167,6 @@ All data is stored locally on the device and works completely offline.
 * ✅ 2048
 * ✅ Flappy Bird
 * ✅ Sudoku
-* ⬜ Sound effects 
-* ⬜ Coin and reward system
 * ✅ Splash screen
 * ✅ Custom app icon
 
